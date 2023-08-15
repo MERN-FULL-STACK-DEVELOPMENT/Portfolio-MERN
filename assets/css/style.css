@@ -21,6 +21,7 @@ header {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     margin-top: 2rem;
+    
   }
 
 .portfolio-item {
@@ -42,11 +43,26 @@ header {
 
 .content{
   float: right;
-  padding-right: 115vh;
-  font-size: 25px;
   margin-bottom: 2rem;
+  padding: 1rem;
+  padding-right: 25vh;
+  font-size: 25px;
   border: 1px solid #ddd;
   border-radius: 5px;
   background-color: #f4eb90;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+img{
+    flex: 1;
+    padding-top: 15px;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    word-spacing: 2px;
+    line-height: 40px;
 }
